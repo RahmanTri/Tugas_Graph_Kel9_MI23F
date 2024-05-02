@@ -111,3 +111,27 @@ PetaJepang.tambahkanJalan("Isesaki","Maebashi")
 
 # untuk print hasil program
 PetaJepang.print()
+
+# Uji coba hapus akses jalan
+PetaJepang.hapusJalan("Takasaki","Honjo")
+PetaJepang.hapusJalan("Honjo","Maebashi")
+PetaJepang.hapusJalan("Honjo","Isesaki")
+PetaJepang.hapusJalan("Isesaki","Maebashi")
+# print untuk membuktikan jalan yang dihapus
+print("""
+==============================================================
+Berikut merupakan list kota dan aksesnya setelah jalan dihapus
+==============================================================
+""")
+PetaJepang.print()
+
+
+# Uji coba hapus kota pada peta
+PetaJepang.hapusKota("Nagatoro")
+# print untuk membuktikan jalan yang dihapus
+print("""
+==============================================================
+Berikut merupakan list kota dan aksesnya setelah kota dihapus
+==============================================================
+""")
+PetaJepang.print()
